@@ -22,6 +22,7 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "br.com.scrumlab.scrumlab_geocoder"
     compileSdkVersion 30
 
     defaultConfig {
